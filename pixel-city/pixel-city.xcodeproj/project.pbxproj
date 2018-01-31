@@ -14,6 +14,7 @@
 		309BE64F202058D300A3E78F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 309BE64E202058D300A3E78F /* Assets.xcassets */; };
 		309BE652202058D300A3E78F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 309BE650202058D300A3E78F /* LaunchScreen.storyboard */; };
 		309BE65F202099C900A3E78F /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309BE65E202099C900A3E78F /* DroppablePin.swift */; };
+		309BE6612021B06200A3E78F /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309BE6602021B06200A3E78F /* PhotoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		309BE651202058D300A3E78F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		309BE653202058D300A3E78F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		309BE65E202099C900A3E78F /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
+		309BE6602021B06200A3E78F /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		6CF32BB2B5883521000764DB /* Pods-pixel-city.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pixel-city.release.xcconfig"; path = "Pods/Target Support Files/Pods-pixel-city/Pods-pixel-city.release.xcconfig"; sourceTree = "<group>"; };
 		94C10B4DD36023BBAB87E828 /* Pods-pixel-city.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pixel-city.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pixel-city/Pods-pixel-city.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				309BE65E202099C900A3E78F /* DroppablePin.swift */,
+				309BE6602021B06200A3E78F /* PhotoCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				309BE6612021B06200A3E78F /* PhotoCell.swift in Sources */,
 				309BE64A202058D300A3E78F /* MapVC.swift in Sources */,
 				309BE65F202099C900A3E78F /* DroppablePin.swift in Sources */,
 				309BE648202058D300A3E78F /* AppDelegate.swift in Sources */,
