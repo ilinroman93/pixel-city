@@ -21,10 +21,8 @@ class PopVC: UIViewController, UIGestureRecognizerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         popImageView.image = passedImage
         addDoubleTap()
-        
     }
     
     func addDoubleTap() {
